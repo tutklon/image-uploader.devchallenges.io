@@ -7,7 +7,7 @@ This is a frist step for Full-Stack Developer Challanges in [devchallanges.io](h
   - Node.js
   - Express.js
 ## User Stories
-  - [x] I can drag and drop an image to upload it
+  - [ ] I can drag and drop an image to upload it
   - [ ] I can choose to select an image from my folder
   - [ ] I can see a loader when uploading
   - [ ] When the image is uploaded, I can see the image and copy it
