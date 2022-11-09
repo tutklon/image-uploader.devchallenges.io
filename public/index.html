@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Image Uploader</title>
+</head>
+<body>
+    <div class="container">
+        <div class="modal">
+            <div class="modal-header">
+                <p class="size12">Upload your image</p>
+                <span class="gray-3">File should be Jpeg, Png,...</span>
+            </div>
+            <div class="modal-section">
+                <img src="/img/image.png" draggable="false" class="modal-img">
+                <p class="gray-4">Drag & Drop your image here</p>
+            </div>
+            <div class="modal-footer">
+                <span class="gray-4">Or</span>
+                <label for="image">
+                    <a  class="modal-button">Choose file</a>
+                </label>
+                <input class="display-none" type="file" id="image" name="image">
+            </div>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+</html>

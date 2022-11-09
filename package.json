@@ -9,9 +9,10 @@
   "author": "Tutku Ucan <tutkuucan369@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "alpinejs": "^3.10.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "multer": "^1.4.3",
+    "multer": "^1.4.4",
     "path": "^0.12.7",
     "pug": "^3.0.2"
   }
